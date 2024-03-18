@@ -11,7 +11,7 @@ body, html {
 }
 
 .top-section {
-background: rgb(135, 17, 17);
+background: rgb(5, 9, 253);
 background: linear-gradient(90deg, rgba(17,69,135,1) 9%, rgba(43,118,213,1) 44%, rgba(17,69,135,1) 100%);
 padding: 5px;
 display: flex;
