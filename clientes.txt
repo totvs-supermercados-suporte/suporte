@@ -5,3 +5,7 @@ codigocliente: TDC0F1
 nomecliente: SUPERMERCADOS IPIRANGA
 cnpj: 123456787
 codigocliente: JOAO0043
+
+nomecliente: SUPERMERCADOS RONDON LTDA
+cnpj: 51010502000134
+codigocliente: TDC0F
