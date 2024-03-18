@@ -1,0 +1,11 @@
+nomecliente: DIFAL
+cnpj: 51010502000134
+codigocliente: 4534534
+
+nomecliente: SUPERMERCADOS IPIRANGA
+cnpj: 123456787
+codigocliente: JOAO0043
+
+nomecliente: SUPERMERCADOS RONDON
+cnpj: 51010502000134
+codigocliente: TDC0F
