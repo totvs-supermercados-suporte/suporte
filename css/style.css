@@ -17,7 +17,7 @@ padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 30vh; /* Metade da altura da tela */
+height: 30vh; 
 }
 
 h2 {
