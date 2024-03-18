@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.top-section {
+background: rgb(17,69,135);
+background: linear-gradient(90deg, rgba(17,69,135,1) 9%, rgba(43,118,213,1) 44%, rgba(17,69,135,1) 100%);
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vh; /* Metade da altura da tela */
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+}
+
+.info-section {
+    padding: 10px;
+}
+
+.bottom-section {
+    padding: 20px;
+    height: 100vh; /* Metade da altura da tela */
+}
+
+.bg-white {
+    background: url('bg-totvs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* mantém a imagem fixa enquanto o usuário rola a página */
+}
+
+li {
+    font-size: 18px;
+}
+
+.dashboard {
+    max-width: 1450px; /* ou a largura que preferir */
+    margin: 0 auto; /* Centraliza o dashboard */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 100px)); 
+    gap: 10px;
+}
+
+.dash {
+    background: #ffffff;
+    border-radius: 5px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.dash:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    background: #e4e9f7;
+}
+
+.dash img {
+    max-width: 60px; 
+    height: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dash span {
+    margin-top: 10px;
+    font-size: 15px;
+    white-space: pre-line;
+    color: #333;
+    overflow: hidden; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dash span:hover {
+    color: #0B4B9C;
+}
+
+
+.titulo {
+    color: #333;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+
+/* Define a cor de fundo da barra de rolagem */
+::-webkit-scrollbar {
+  background-color: white; /* Cor de fundo azul escura */
+  border-radius: 5px;
+}
+
+/* Define a cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Cor azul escura */
+  border-radius: 5px;
+}
+
+/* Define o tamanho da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+  border-radius: 5px;
+}
+
+
+/* Adições para responsividade */
+@media (max-width: 800px) {
+    .top-section {
+        height: 500vh; /* Altura menor para telas pequenas */
+        padding: 20px;
+    }
+
+    .bottom-section {
+        padding: 10px;
+    }
+
+    .dashboard {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Ajusta para telas menores */
+    }
+
+    .dash {
+        padding: 5px;
+    }
+
+    .dash img {
+        max-width: 20px; /* Imagens menores para se ajustarem melhor */
+    }
+
+    .dash span {
+        font-size: 16px; /* Tamanho de fonte menor */
+    }
+
+    .titulo {
+        font-size: 35px; /* Tamanho de fonte menor para o título */
+    }
+
+    .logo {
+        width: 150px; /* Logo menor */
+        height: 150px; /* Logo menor */
+    }
+}
+
+@media (max-width: 730px) {
+
+    .top-section {
+        height: 25vh; /* Ainda menor para telas muito pequenas */
+    }
+
+    .dashboard {
+        display: flex; /* Muda para flex para permitir um layout de lista */
+        flex-direction: column; /* Organiza os itens em uma única coluna */
+        gap: 10px; /* Mantém um pequeno espaço entre os itens da lista */
+    }
+
+    .dash {
+        /* Ajusta os dashs para ocupar a largura total disponível, fazendo com que cada um se comporte como um item de lista */
+        width: 100%; /* Faz cada dash ocupar a largura total */
+        margin: 0 auto; /* Centraliza os dashs caso não ocupem a largura total */
+    }
+
+    /* Outras regras de responsividade aqui, se necessário */
+    .dash img {
+        max-width: 40px; /* Ajusta o tamanho da imagem, se necessário */
+    }
+
+    .dash span {
+        font-size: 14px; /* Ajusta o tamanho da fonte para a visualização em tela pequena */
+    }
+
+    .titulo {
+        font-size: 30px; /* Título com tamanho de fonte reduzido */
+    }
+
+    .logo {
+        display: none;
+    }
+}
