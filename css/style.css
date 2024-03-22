@@ -21,9 +21,13 @@ height: 30vh;
 }
 
 h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 25px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: left;
 }
 
 h3 {
@@ -139,13 +143,13 @@ li {
 
 /* Define a cor da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-  background-color: #333; /* Cor azul escura */
-  border-radius: 5px;
+  background-color: #223ce4; /* Cor azul escura */
+  border-radius: 4px;
 }
 
 /* Define o tamanho da barra de rolagem */
 ::-webkit-scrollbar {
-  width: 8px; /* Largura da barra de rolagem */
+  width: 10px; /* Largura da barra de rolagem */
   border-radius: 5px;
 }
 
