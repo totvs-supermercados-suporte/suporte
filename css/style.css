@@ -111,6 +111,7 @@ li {
     overflow: hidden; 
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .dash span:hover {
