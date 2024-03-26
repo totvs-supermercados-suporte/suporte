@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'portal-antt': 'https://consultapublica.antt.gov.br/Site/ConsultaRNTRC.aspx/consultapublica',
         'validador-tecnospeed-xml': 'https://validador.nfe.tecnospeed.com.br/',
         'monitor-sefaz': 'https://monitor.tecnospeed.com.br/',
-        'google': 'https://www.google.com'
+        'sefazhmg': 'https://hom.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g='
     };
 
     // Adiciona o evento de clique para cada dash
