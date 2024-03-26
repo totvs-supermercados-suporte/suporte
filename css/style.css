@@ -6,25 +6,23 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     box-sizing: border-box;
 }
 
 .top-section {
-background: rgb(5, 9, 253);
-background: linear-gradient(90deg, rgba(17,69,135,1) 9%, rgba(43,118,213,1) 44%, rgba(17,69,135,1) 100%);
 padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 6vh; 
+height: 10vh; 
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 25px;
-    color: #1e3a8a;
+    color: #000000;
     margin-bottom: 10px;
     justify-content: center;
     text-align: left;
@@ -56,7 +54,7 @@ p {
 }
 
 .bg-white {
-    background: url('bg-totvs.png');
+    background: #0B4B9C;               /* background: url('bg-totvs.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +113,7 @@ li {
 }
 
 .dash span:hover {
-    color: #0B4B9C;
+    color: white;
 }
 
 
@@ -132,7 +130,7 @@ li {
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 30px !important;
 }
 
 
@@ -163,7 +161,7 @@ li {
     }
 
     .bottom-section {
-        padding: 10px;
+        padding: 5px;
     }
 
     .dashboard {
