@@ -7,7 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta property="og:image" content="https://totver.com/suporte/asset/favicon/suporte-tecnico.png">
     <meta name="description" content="Facilitador de acessos">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nicolas Penatti">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Facilitador de acessos">
@@ -22,17 +21,17 @@
     <section class="top-section">
         <img class="logo" src="asset/logo-totvs.png" alt="TOTVS">
         <div class="dashboard">
-            <!-- <div class="dash" id="portal-nfe"><img src="asset/icon-portal-nfe.png" alt="Portal NFe"><span>Portal <br>NFe</span></div>
+            <div class="dash" id="portal-nfe"><img src="asset/icon-portal-nfe.png" alt="Portal NFe"><span>Portal <br>NFe</span></div>
             <div class="dash" id="portal-cte"><img src="asset/icon-portal-cte.png" alt="Portal CTe"><span>Portal <br>CTe</span></div>
             <div class="dash" id="portal-dfe-rs"><img src="asset/icon-portal-dfe-rs.png" alt="Portal DFe-rs"><span><br>Portal <br>DFe-rs</span></div>
             <div class="dash" id="consultar-uf"><img src="asset/icon-consultar-uf.png" alt="Consultar UF"><span>Consultar UF</span></div>
-            <div class="dash" id="portal-chat"><img src="asset/icon-chat.png" alt="Portal Chat"><span>Portal <br>Chat</span></div>
-            <div class="dash" id="manuais-totvs"><img src="asset/icon-manuais-totvs.png" alt="Manuais TOTVS"><span>Manuais TOTVS</span></div>
-            <div class="dash" id="monitor-sefaz"><img src="asset/monitor-sefaz.png" alt="Monitor Sefaz" srcset=""><span>Monitor <br>Sefaz</span></div>
-            <div class="dash" id="portal-antt"><img src="asset/icon-portal-antt.png" alt="Portal ANTT"><span>Portal <br>ANTT</span></div>
-            <div class="dash" id="portal-sintegra"><img src="asset/icon-portal-sintegra.png" alt="Portal Sintegra"><span>Portal Sintegra</span></div>
+          <!--  <div class="dash" id="portal-chat"><img src="asset/icon-chat.png" alt="Portal Chat"><span>Portal <br>Chat</span></div>-->
             <div class="dash" id="validador-sefaz-rs"><img src="asset/icon-validador-sefaz-rs.png" alt="Validador Sefaz RS"><span>Validador Sefaz XML</span></div>
-            <div class="dash" id="validador-tecnospeed-xml"><img src="asset/icon-validador-tecnospeed-xml.png" alt="Validador Sefaz RS"><span>XML Tecnospeed</span></div> -->
+            <div class="dash" id="validador-tecnospeed-xml"><img src="asset/icon-validador-tecnospeed-xml.png" alt="Validador Sefaz RS"><span>XML Tecnospeed</span></div>
+            <div class="dash" id="portal-sintegra"><img src="asset/icon-portal-sintegra.png" alt="Portal Sintegra"><span>Portal Sintegra</span></div>
+            <div class="dash" id="portal-antt"><img src="asset/icon-portal-antt.png" alt="Portal ANTT"><span>Portal <br>ANTT</span></div>
+            <div class="dash" id="monitor-sefaz"><img src="asset/monitor-sefaz.png" alt="Monitor Sefaz" srcset=""><span>Monitor <br>Sefaz</span></div>
+            <div class="dash" id="manuais-totvs"><img src="asset/icon-manuais-totvs.png" alt="Manuais TOTVS"><span>Manuais TOTVS</span></div>
         </div>
     </section>
     <section class="bottom-section" id="portal">
@@ -40,7 +39,7 @@
     <!-- Cabeçalho -->
     <header class="bg-white text-blue-900 py-4">
         <div class="container mx-auto text-center">
-            <h1 class="text-4xl text-white font-bold greeting">Olá, <span id="nomeUsuario"></span></h1>
+            <h1 class="text-4xl font-bold greeting">Olá, <span id="nomeUsuario"></span></h1>
         </div>
     </header>
 
@@ -55,26 +54,54 @@
         <div class="grid grid-cols-3 gap-8">
             
 <!-- Card 1 -->
-<div class="p-7 bg-blue-100 rounded-2xl">
-  <h2>NDD</h2>
+<div class="p-6 rounded-lg">
+  <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">NDD</h2>
     <ul>
         <li><a href="https://suporte.nddigital.com.br/logon.asp?logoff=er" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Abrir chamado </a></li>
-        <li><a href="https://webnfe.e-datacenter.nddigital.com.br/eFormsColdweb/Account/Login" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>eCold Datacenter</a></li>
         <li><a href="https://webnfe.e-datacenter.nddigital.com.br/eFormseMonitor/Account/Login" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>eMonitor Datacenter</a></li>
+        <li><a href="https://webnfe.e-datacenter.nddigital.com.br/eFormsColdweb/Account/Login" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>eCold Datacenter</a></li>
         <li><a href="https://webcte2pd.e-datacenter.nddigital.com.br/eFormseMonitor/Account/Login" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>eMonitor DC CTe</a></li>
         <li><a href="http://manuais.nddigital.com.br/e-Forms/4.8.5.0/index.html?manual_para_formacao_de_arqui_nfe.html" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Manual NDD</a></li>
         <li><a href="https://e-validador.nfe.nddigital.com.br/ValidadorWeb/Account/Login" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Validador NDD</a></li>
+        <li><a href="https://drive.google.com/drive/folders/11DG4wiksOTTHs8gjfCQP9jWkGu0LR4VW" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Versões Patch</a></li>
         <li>
-            <a href="https://drive.google.com/drive/folders/11DG4wiksOTTHs8gjfCQP9jWkGu0LR4VW" target="_blank" class="font-mono flex items-center hover:text-blue-700">
+            <a href="backup_script_patch.bat" download class="font-mono flex items-center hover:text-blue-700">
                 <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Versões Patch</a>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                Baixar Backup Patch
+            </a>
+        </li>
+        <li>
+            <a href="TOTVS FolderScan.exe" download class="font-mono flex items-center hover:text-blue-700">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                Baixar TOTVS FolderScan
+            </a>
+        </li>
+        <li>
+            <a href="Consulta de Chave.exe" download class="font-mono flex items-center hover:text-blue-700">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                Baixar Consulta Chave NFe
+            </a>
+        </li>
+        <li>
+            <a href="NDD Patch Backup.exe" download class="font-mono flex items-center hover:text-blue-700">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                Baixar NDD Patch Backup
+            </a>
         </li>
     </ul>
 </div>
 
 <!-- Card 2 -->
-<div class="p-7 bg-blue-100 rounded-2xl">
-    <h2>Portais TOTVS</h2> 
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Portais TOTVS</h2> 
     <ul>
         <li><a href="https://tdn.totvs.com/display/TVSLC/TOTVS+Varejo+Supermercados" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>TDN</a></li>
         <li><a href="https://totvssign.totvs.app/webapptotvssign/#/auth" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Assinatura Eletrônica</a></li>
@@ -89,8 +116,8 @@
 
 
 <!-- Card 3 -->
-<div class="p-7 bg-blue-100 rounded-2xl">
-    <h2>Utilitários</h2> 
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Utilitários</h2> 
     <ul>
         <li><a href="https://vpn4.totvs.com.br/my.logout.php3?errorcode=19" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>VPN</a></li>
         <li><a href="https://drive.google.com/drive/folders/17c77CzDQKbTXX42YcbwZi4FJ5FTwH37C" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>DBMonitor (Ativação)</a></li>
@@ -104,8 +131,8 @@
 </div>
 
 <!-- Card 4 -->
-<div class="p-7 bg-blue-100 rounded-2xl">
-    <h2>Indicadores</h2> 
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Indicadores</h2> 
     <ul>
         <li><a href="https://lookerstudio.google.com/reporting/d4d0af0d-3de8-4a13-8bde-c0e2f925ed87/page/NSkSD" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Avaliação Individual</a></li>
         <li><a href="https://totvssuporte.zendesk.com/agent/filters/17456784521751" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Satisfação NPS</a></li>
@@ -115,8 +142,8 @@
 </div>
 
 <!-- Card 5 -->
-<div class="p-7 bg-blue-100 rounded-2xl">
-    <h2>Apps TOTVS Sup</h2> 
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Apps TOTVS Sup</h2> 
     <ul>
         <li><a href="https://nfe.validador.info/" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Valida NFe</a></li>
         <li><a href="https://assinatura.totver.com/" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Criar Assinatura</a></li>
@@ -154,11 +181,6 @@
         </li>
     </ul>
 </div>
-<div class="p-7 bg-blue-100 rounded-2xl">
-    <h2>Homologação</h2> 
-    <ul>
-        <li><a id="sefazhmg" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Consulta NFe</a></li>
-    </ul>
 </div>
     <script>function a(e){if(("u"===e.key||85===e.keyCode)&&e.ctrlKey||123===e.keyCode){e.preventDefault();e.stopPropagation();console.log("Key combination blocked.")}}document.addEventListener("keydown",a);</script>
     <script>document.querySelectorAll('li>a').forEach(function(e){e.classList.add('text-black')});</script>

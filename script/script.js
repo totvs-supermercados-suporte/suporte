@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'portal-receita': 'https://www.gov.br/receitafederal/pt-br',
         'portal-antt': 'https://consultapublica.antt.gov.br/Site/ConsultaRNTRC.aspx/consultapublica',
         'validador-tecnospeed-xml': 'https://validador.nfe.tecnospeed.com.br/',
-        'monitor-sefaz': 'https://monitor.tecnospeed.com.br/',
-        'sefazhmg': 'https://hom.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g='
+        'monitor-sefaz': 'https://monitor.tecnospeed.com.br/'
     };
 
     // Adiciona o evento de clique para cada dash
