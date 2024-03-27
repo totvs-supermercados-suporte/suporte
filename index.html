@@ -181,6 +181,12 @@
         </li>
     </ul>
 </div>
+
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Homologação</h2> 
+    <ul>
+            <li><a href="https://nfe.validador.info/" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Valida NFe</a></li>
+    </ul>
 </div>
     <script>function a(e){if(("u"===e.key||85===e.keyCode)&&e.ctrlKey||123===e.keyCode){e.preventDefault();e.stopPropagation();console.log("Key combination blocked.")}}document.addEventListener("keydown",a);</script>
     <script>document.querySelectorAll('li>a').forEach(function(e){e.classList.add('text-black')});</script>
@@ -190,7 +196,7 @@
 <script>
     // Função para exibir um alerta solicitando o nome da pessoa
     function solicitarNome() {
-        var nome = prompt("Qual é seu nome? Não precisa ser o nome completo :D");
+        var nome = prompt("Qual é seu nome?");
         if (nome != null && nome != "") {
             // Se um nome foi fornecido, substituir o texto nos elementos com a classe 'greeting'
             var elementosGreeting = document.querySelectorAll(".greeting");
