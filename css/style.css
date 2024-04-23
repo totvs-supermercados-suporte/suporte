@@ -6,23 +6,23 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 .top-section {
-background: rgb(5, 9, 253);
+background: rgb(17,69,135);
 background: linear-gradient(90deg, rgba(17,69,135,1) 9%, rgba(43,118,213,1) 44%, rgba(17,69,135,1) 100%);
 padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 30vh; 
+height: 30vh; /* Metade da altura da tela */
 }
 
 h2 {
     font-family: 'Poppins';
-    font-weight: bold;
+    font-weight: 500;
     font-size: 25px;
 }
 
@@ -92,7 +92,7 @@ li {
 }
 
 .dash img {
-    max-width: 60px; 
+    max-width: 80px; 
     height: auto;
     margin-bottom: 20px;
     cursor: pointer;

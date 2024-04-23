@@ -12,9 +12,10 @@
     <meta property="og:title" content="Facilitador de acessos">
     <meta property="og:description" content="Facilitador de acessos TOTVS">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="asset/favicon/suporte-tecnico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="asset/favicon/favicon.ico" type="image/x-icon">
     <title>Ferramenta de Auxílio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0123/1304.js" async="async"></script>
 </head>
 </html>
 <body>
@@ -32,6 +33,7 @@
             <div class="dash" id="portal-antt"><img src="asset/icon-portal-antt.png" alt="Portal ANTT"><span>Portal <br>ANTT</span></div>
             <div class="dash" id="monitor-sefaz"><img src="asset/monitor-sefaz.png" alt="Monitor Sefaz" srcset=""><span>Monitor <br>Sefaz</span></div>
             <div class="dash" id="manuais-totvs"><img src="asset/icon-manuais-totvs.png" alt="Manuais TOTVS"><span>Manuais TOTVS</span></div>
+            <div class="dash" id="zendesk"><img src="asset/zendesk-logo.png" alt="Zendesk"><span>Zendesk</span></div>
         </div>
     </section>
     <section class="bottom-section" id="portal">
@@ -39,6 +41,7 @@
     <!-- Cabeçalho -->
     <header class="bg-white text-blue-900 py-4">
         <div class="container mx-auto text-center">
+            <img class="logo" src="asset/logo-totvs.png" alt="TOTVS">
             <h1 class="text-4xl font-bold greeting">Olá, <span id="nomeUsuario"></span></h1>
         </div>
     </header>
@@ -173,6 +176,12 @@
         </li>
     </ul>
 </div>
+
+<div class="p-6 rounded-lg">
+    <h2 class="text-2xl text-blue-700 font-bold mb-2 ml-1">Homologação</h2> 
+    <ul>
+            <li><a href="https://nfe.validador.info/" target="_blank" class="font-mono flex items-center hover:text-blue-700"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Valida NFe</a></li>
+    </ul>
 </div>
     <script>function a(e){if(("u"===e.key||85===e.keyCode)&&e.ctrlKey||123===e.keyCode){e.preventDefault();e.stopPropagation();console.log("Key combination blocked.")}}document.addEventListener("keydown",a);</script>
     <script>document.querySelectorAll('li>a').forEach(function(e){e.classList.add('text-black')});</script>
@@ -182,7 +191,7 @@
 <script>
     // Função para exibir um alerta solicitando o nome da pessoa
     function solicitarNome() {
-        var nome = prompt("Qual é seu nome? Não precisa ser o nome completo :D");
+        var nome = prompt("Qual é seu nome?");
         if (nome != null && nome != "") {
             // Se um nome foi fornecido, substituir o texto nos elementos com a classe 'greeting'
             var elementosGreeting = document.querySelectorAll(".greeting");

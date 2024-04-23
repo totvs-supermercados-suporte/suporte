@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            display: none; /* Inicialmente esconder o iframe */
+        }
+
+        button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            color: green;
+            background: none;
+            cursor: pointer; /* Alterando o cursor para indicar que o botão é clicável */
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+            flex-direction:inherit;
+        }
+
+        button:hover {
+            color: red;
+            border: 1px solid red;
+        }
+        
+        button:focus{
+            color: blue;
+            border: 1px solid blue;
+            transform: rotate(20deg);
+        }
+
+        h1 {
+            font-family: 'Segoe UI', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+
+<h1>Porta Suporte</h1>
+
+<button onclick="abrirSite()">Abrir Site</button>
+<button onclick="fecharSite()">Fechar Site</button>
+
+<!-- iframe para incorporar o site da NFe -->
+<iframe id="iframeSite" frameborder="0"></iframe>
+
+<script>
+    var iframe = document.getElementById('iframeSite');
+    var siteCarregado = false;
+
+    function abrirSite() {
+        if (!siteCarregado) {
+            iframe.src = "https://suporte.totver.com"; // Carregar o site apenas quando for mostrado
+            siteCarregado = true;
+        }
+        iframe.style.display = 'block'; // Exibir o iframe ao clicar em "Abrir Site"
+    }
+
+    function fecharSite() {
+        iframe.style.display = 'none'; // Esconder o iframe ao clicar em "Fechar Site"
+    }
+</script>
+
+</body>
+</html>
